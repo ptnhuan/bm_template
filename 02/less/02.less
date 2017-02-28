@@ -1,0 +1,167 @@
+.type-01{
+    @color:#D0021B;
+    @color1:#52545F;
+    @align:middle;
+    .main-content {
+        text-align: center;
+        margin-top: -15px;
+    }
+    .app-display {
+        display: inline-block;
+        max-width: 460px;
+        vertical-align: middle;
+        position: relative;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    @media only screen and (min-width: 980px){
+        .app-info {
+            padding-left: 50px;
+            max-width: 480px;
+        }
+    }
+    @media only screen and (min-width: 980px){
+        .medium-plus-hide {
+            display: none !important;
+        }
+    }
+    @media only screen and (min-width: 780px){
+        .rating:first-child {
+            margin-right: 40px;
+        }
+    }
+    @media only screen and (min-width: 780px){
+        .rating {
+            display: inline-block;
+        }
+    }
+    @media only screen and (min-width: 780px){
+        .rating-info {
+            display: inline-block;
+            text-align: left;
+        }
+    }
+    @media only screen and (min-width: 780px){
+        .store-badge {
+            margin-right: 18px;
+        }
+    }
+    .app-info {
+        display: inline-block;
+        vertical-align: @align;
+        text-align: left;
+        margin-top: -20px;
+    }
+    app-info .h1 {
+        font-weight: 400;
+        color: #505050;
+        font-size: 3.8rem;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .text-info li {
+        color:@color1;
+        font-size: 1.5rem;
+        display: block;
+        margin-top: 14px;
+        position: relative;
+        padding-left: 18px;
+    }
+    li {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+    .text-info li:before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        background: #DA151F;
+        border-radius: 99px;
+        margin-right: 10px;
+        vertical-align: 2px;
+        display: inline-block;
+        position: absolute;
+        top: 8px;
+        left: 0;
+    }
+    .app-info .web-app-links {
+        margin-top: 44px;
+    }
+    .web-app-links a {
+        display: inline-block;
+        width: 170px;
+        height: 4.4rem;
+        line-height: 4.4rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+        border-radius: 99px;
+        text-align: center;
+    }
+    .register-link {
+        background: @color;
+        color: white;
+        margin-right: 14px;
+    }
+    .text-info {
+        margin-top: 26px;
+        text-align: left;
+        line-height: 2.4rem;
+    }
+
+    .mobile-app-links {
+        display: block;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+    .register-link {
+        background: @color;
+        color: white;
+        margin-right: 14px;
+    }
+    .login-link {
+        background: #DFDFDF;
+        color: @color1;
+    }
+
+    .rating {
+        text-align: center;
+    }
+    .store-badge {
+        vertical-align: @align;
+    }
+    .store-badge img {
+        width: 156px;
+    }
+
+    .rating-info {
+        vertical-align: @align;
+    }
+    .star-wrapper img:not(:last-child) {
+        margin-right: 4px;
+    }
+    .star-wrapper img {
+        display: inline-block;
+        width: 20px;
+    }
+    .fa fa-star {
+        background: red;
+    }
+    .rating span {
+        font-size: 1.4rem;
+        color: #909090;
+        display: block;
+        margin-top: 8px;
+    }
+    .store-badge.bottom {
+        display: none;
+    }
+    
+
+}
+

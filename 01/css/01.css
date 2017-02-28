@@ -1,0 +1,21 @@
+.type-01 {
+  padding-top: 50px;
+}
+.type-01 .logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 0;
+  position: absolute;
+  left: 26px;
+  z-index: 10;
+  width: 80px;
+}
+.type-01 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.type-01 .starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}

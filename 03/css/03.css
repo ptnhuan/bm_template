@@ -1,0 +1,40 @@
+@media only screen and (min-width: 780px) {
+  .type-01 .footer-links li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .type-01 .footer-links a {
+    padding: 10px 10px;
+  }
+}
+.type-01 footer {
+  text-align: center;
+  margin: 18px 0 30px;
+}
+.type-01 .footer-links {
+  font-size: 1.3rem;
+  color: #505050;
+  display: inline-block;
+  width: 100%;
+}
+.type-01 li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.type-01 .footer-links a {
+  display: inline-block;
+  transition: color 0.2s ease-out;
+}
+.type-01 a {
+  text-decoration: none;
+  color: #505050;
+}
+.type-01 .footer-links a:hover {
+  color: #DA151F;
+}
+.type-01 .footer-links a {
+  display: inline-block;
+  transition: color 0.2s ease-out;
+}

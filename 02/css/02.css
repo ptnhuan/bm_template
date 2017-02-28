@@ -1,0 +1,156 @@
+.type-01 .main-content {
+  text-align: center;
+  margin-top: -15px;
+}
+.type-01 .app-display {
+  display: inline-block;
+  max-width: 460px;
+  vertical-align: middle;
+  position: relative;
+}
+.type-01 img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 980px) {
+  .type-01 .app-info {
+    padding-left: 50px;
+    max-width: 480px;
+  }
+}
+@media only screen and (min-width: 980px) {
+  .type-01 .medium-plus-hide {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .type-01 .rating:first-child {
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .type-01 .rating {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .type-01 .rating-info {
+    display: inline-block;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .type-01 .store-badge {
+    margin-right: 18px;
+  }
+}
+.type-01 .app-info {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-top: -20px;
+}
+.type-01 app-info .h1 {
+  font-weight: 400;
+  color: #505050;
+  font-size: 3.8rem;
+}
+.type-01 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.type-01 .text-info li {
+  color: #52545F;
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 14px;
+  position: relative;
+  padding-left: 18px;
+}
+.type-01 li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.type-01 .text-info li:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #DA151F;
+  border-radius: 99px;
+  margin-right: 10px;
+  vertical-align: 2px;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+.type-01 .app-info .web-app-links {
+  margin-top: 44px;
+}
+.type-01 .web-app-links a {
+  display: inline-block;
+  width: 170px;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 99px;
+  text-align: center;
+}
+.type-01 .register-link {
+  background: #D0021B;
+  color: white;
+  margin-right: 14px;
+}
+.type-01 .text-info {
+  margin-top: 26px;
+  text-align: left;
+  line-height: 2.4rem;
+}
+.type-01 .mobile-app-links {
+  display: block;
+  margin: 40px auto 0;
+  text-align: center;
+}
+.type-01 .register-link {
+  background: #D0021B;
+  color: white;
+  margin-right: 14px;
+}
+.type-01 .login-link {
+  background: #DFDFDF;
+  color: #52545F;
+}
+.type-01 .rating {
+  text-align: center;
+}
+.type-01 .store-badge {
+  vertical-align: middle;
+}
+.type-01 .store-badge img {
+  width: 156px;
+}
+.type-01 .rating-info {
+  vertical-align: middle;
+}
+.type-01 .star-wrapper img:not(:last-child) {
+  margin-right: 4px;
+}
+.type-01 .star-wrapper img {
+  display: inline-block;
+  width: 20px;
+}
+.type-01 .fa fa-star {
+  background: red;
+}
+.type-01 .rating span {
+  font-size: 1.4rem;
+  color: #909090;
+  display: block;
+  margin-top: 8px;
+}
+.type-01 .store-badge.bottom {
+  display: none;
+}
