@@ -1,0 +1,47 @@
+.type-07 {
+    @banner-background: #517dab;
+    @color-banner-title: #fff;
+    @size-banner-title: 30px;
+    @color-banner-span: #ddd;
+    @size-banner-span: 23px;
+    @color-button-border: #fff;
+    @color-word-button: #fff;
+    @color-button-bg-hover: #fff;
+    @color-word-button-hover: #517dab;
+
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .banner {
+        background-color: @banner-background;
+        text-align: center;
+        padding: 90px;
+        h2 {
+            color: @color-banner-title;
+            font-size: @size-banner-title;
+            font-weight: bold;
+            margin: 0;
+        }
+        span {
+            color: @color-banner-span;
+            font-size: @size-banner-span;
+            margin-bottom: 34px;
+            display: block;
+        }
+        .banner-button {
+            border: 1px @color-button-border solid;
+            color: @color-word-button;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            display: inline-block;
+            transition: .2s ease-out;
+        }
+        .banner-button:hover {
+            background-color: @color-button-bg-hover;
+            color: @color-word-button-hover;
+        }
+    }
+}
